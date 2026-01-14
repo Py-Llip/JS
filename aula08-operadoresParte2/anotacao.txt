@@ -1,0 +1,32 @@
+Operadores relacionais, lógicos e ternários
+Relacionais:
+n > 1 -> Valor boleano
+n < 1
+n >= 1
+n <= 1
+n == 1
+n != 1
+
+Nota: 5 == 5 true / 5 == '5' true
+operador de indentidade == '==='
+ele compara o tipo e o valor ex 5 === '5' false 5 === 5 true ( tambem funciona com o sinal de diferente !== ao invés de !=)
+
+Lógicos:
+! negação ( em python é not)
+    ! true == false
+    ! false == true
+&& conjunção (and)
+    true && true == true
+    true && false == false
+    false && false == false
+|| disjunção (or)
+    true || true == true
+    true || false == true
+    false || true == true
+    false || false == false
+
+Ternário:
+Tem 3 partes: teste ? true : false
+? se for verdadeiro
+: se for falso
+média >= 7.0 ? "Aprovado" : "Reprovado"

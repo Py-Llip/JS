@@ -1,0 +1,11 @@
+Operadores aritméticos e atribuição
+n + 1
+n - 1
+n * 1
+n / 1
+n % 1
+n ** 1
+n += 1
+n **= 1
+n ++ (pós-incremento (pré-incremento: ++ n)) == n += 1
+n -- == n -= 1
