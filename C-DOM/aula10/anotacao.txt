@@ -1,0 +1,17 @@
+Eventos DOM:
+Mouse:
+    mouseenter
+    mousemove
+    mousedown
+    mouseup
+    click
+    mouseout
+
+Funções:
+function { <--- funcao anonima
+
+}
+
+function acao(param) {
+    
+}
