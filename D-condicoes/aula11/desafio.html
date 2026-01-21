@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recriacao do ex 009</title>
+</head>
+<body>
+    <form action="" method="get">
+        <legend>País atual: </legend>
+        <label for="itxt">Coloque seu país atual:</label>
+        <input type="text" name="" id="itxt">
+        <input type="button" value="enviar">
+    </form>
+    <div id="result"></div>
+    <script>
+        var result = document.getElementById('result')
+        window.document.querySelector('input[type="button"]').addEventListener('click', pais)
+        function pais() {
+            var txt = document.getElementById('itxt').value
+            result.innerHTML = `Vivendo no país ${txt} <br>`
+            if (txt != 'Brasil') {
+                result.innerText += 'Você é estrangeiro.'
+            } else {
+                result.innerText += 'Você é brasileiro'
+            }
+        }
+    </script>
+</body>
+</html>

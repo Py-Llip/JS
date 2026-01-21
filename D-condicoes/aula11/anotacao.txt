@@ -1,0 +1,19 @@
+Condicoes
+    if (condicao) {
+        true
+    } else{ 
+        false
+    }
+
+Tipos de condicao 
+    condicao simples:
+        if (condicao) {
+            true
+        }
+
+    condicao composta
+        if (condicao) {
+            true
+        } else {
+            false
+        }
