@@ -1,0 +1,15 @@
+Condicoes aninhadas:
+
+if (cond1) {
+    bloco1
+} else {
+    if (cond2) {
+        bloco2
+    } else {
+        bloco3
+    }
+}  <-__
+        \__  condicao aninhada
+
+
+
