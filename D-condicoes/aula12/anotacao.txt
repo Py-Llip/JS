@@ -11,5 +11,21 @@ if (cond1) {
 }  <-__
         \__  condicao aninhada
 
+Condicao multipla:
+switch (expressao) {
+    case valor 1:
+        bloco
+        break
+    case valor 2:
+        bloco
+        break
+    case valor 3:
+        bloco
+        break
+    default:
+        bloco
+        break (opcional)
+}
+#### sempre utilize o break
 
 
