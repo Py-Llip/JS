@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    font: normal 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(105, 173, 228);
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .3);
+}
+
+section form fieldset {
+    border-radius: 10px;
+}
+
+section input[type="button"] {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    background-color: rgb(105, 173, 228);
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 0px 0px 20px rgb(255, 136, 0);
+    width: 200px;
+    height: 40px;
+    margin: 30px 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.05s ease-in;
+
+}
+
+section input[type="button"]:active {
+    background-color: aliceblue;
+} 
+
+section form p label{
+    display: inline-block;
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
