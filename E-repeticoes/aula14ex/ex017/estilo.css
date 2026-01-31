@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font: normal 15pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +9,6 @@ body {
 header {
     text-align: center;
     color: white;
-    padding: 30px;
 }
 
 section {
@@ -31,5 +24,4 @@ footer {
     text-align: center;
     color: white;
     font-style: italic;
-    padding: 10px;
 }
