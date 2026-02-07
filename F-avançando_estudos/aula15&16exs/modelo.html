@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciar números</h1>
+    </header>
+    <section>
+        <div>
+            <form action="" method="get">
+                <label for="in">Coloque um número de 1 a 100: </label>
+                <input type="number" name="num" id="in" max="100" min="1">
+                <input type="button" value="Adicionar" onclick="add()">
+            </form>
+        </div>
+        <div id="res">
+            <output style="display: block; margin-right: auto;">
+                <select name="sel" id="sel" size="10" style="width: 15em;">
+                </select>
+            </output>
+            <input type="button" value="Enviar">
+            <div id="envio"></div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso em Video</p>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>
